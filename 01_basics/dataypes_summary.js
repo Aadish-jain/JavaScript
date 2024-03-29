@@ -62,3 +62,33 @@ const myFunction = function(){
 
 console.log(myFunction)
 console.log(myFunction())
+
+// *******************************************************************
+
+// Memory Stack(Primitive)  & Heap(Non-Primitive) 
+
+// Copy of data in primitive datatype (in stack)
+let myName = 'Aadish Jain'
+let myName1 = myName
+
+console.log(myName)
+console.log(myName1)
+
+myName1 = "Jain"
+
+console.log(myName1)
+
+//Heap -> call by reference two variable/object refer to one value
+let NewObj = {
+    name: "Jainji",
+    email: "AadishJain@google.com"
+}
+
+let NewObj1 = NewObj
+
+console.log(NewObj);
+console.log(NewObj1);
+
+NewObj1.name = "Aadish-AJ"   // changing the name of NewObj1 but NewObj's name is also changed now
+console.log(NewObj);
+console.log(NewObj1);
