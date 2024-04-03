@@ -28,7 +28,7 @@ console.log(Id === NewId)       //strict equal
 // const BigNumber = 3455838679720724875487857784758    // Number is too long for int
 const BigNumber = 3455838679720724875487857784758n    //n at last is to make BigNumber of type BigInt
 
-console.log(BigNumber ,typeof BigNumber);
+console.log(BigNumber, typeof BigNumber);
 
 
 // Non-Primitive (Reference)
@@ -49,16 +49,16 @@ console.log(heros[4]);
 //Objects
 
 let Obj = {
-    name : "aadish",
-    id : 12,
+    name: "aadish",
+    id: 12,
 }
 console.log(Obj)
 
 //Functions
 
-const myFunction = function(){
+const myFunction = function () {
     console.log("Hello WOrld")
-} 
+}
 
 console.log(myFunction)
 console.log(myFunction())
